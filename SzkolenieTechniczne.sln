@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzkolenieTechniczne.Geo", "SzkolenieTechniczne.Geo\SzkolenieTechniczne.Geo.csproj", "{533E2A7B-59E2-4ACF-82D5-953B7C5155A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SzkolenieTechniczne.Geo", "SzkolenieTechniczne.Geo\SzkolenieTechniczne.Geo.csproj", "{533E2A7B-59E2-4ACF-82D5-953B7C5155A5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Geo", "Geo", "{F725BC38-C0C8-4ADE-8918-3F78E69F1EE9}"
 EndProject
@@ -13,13 +13,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Company", "Company", "{D75C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobAdvertisment", "JobAdvertisment", "{167CB4B5-B7DC-4DBB-8E46-E7AE50E76AE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzkolenieTechniczne.Geo.CrossCutting", "SzkolenieTechniczne.Geo.CrossCutting\SzkolenieTechniczne.Geo.CrossCutting.csproj", "{BBF7E7E3-B52B-4057-9D38-4618A0F58A34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SzkolenieTechniczne.Geo.CrossCutting", "SzkolenieTechniczne.Geo.CrossCutting\SzkolenieTechniczne.Geo.CrossCutting.csproj", "{BBF7E7E3-B52B-4057-9D38-4618A0F58A34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzkolenieTechniczne.Geo.Storage", "SzkolenieTechniczne.Geo.Storage\SzkolenieTechniczne.Geo.Storage.csproj", "{0BD29556-4CF4-4374-BF8E-0C14FF263AA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SzkolenieTechniczne.Geo.Storage", "SzkolenieTechniczne.Geo.Storage\SzkolenieTechniczne.Geo.Storage.csproj", "{0BD29556-4CF4-4374-BF8E-0C14FF263AA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzkolenieTechniczne.Common.Storage", "SzkolenieTechniczne.Common.Storage\SzkolenieTechniczne.Common.Storage.csproj", "{BCF5A8B6-798D-4F70-847F-C06079341941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SzkolenieTechniczne.Common.Storage", "SzkolenieTechniczne.Common.Storage\SzkolenieTechniczne.Common.Storage.csproj", "{BCF5A8B6-798D-4F70-847F-C06079341941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzkolenieTechniczne.Common.CrossCutting", "SzkolenieTechniczne.Common.CrossCutting\SzkolenieTechniczne.Common.CrossCutting.csproj", "{381B9674-58AF-4F61-84DB-16DD1CF6963F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SzkolenieTechniczne.Common.CrossCutting", "SzkolenieTechniczne.Common.CrossCutting\SzkolenieTechniczne.Common.CrossCutting.csproj", "{381B9674-58AF-4F61-84DB-16DD1CF6963F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzkolenieTechniczne.Company", "SzkolenieTechniczne.Company\SzkolenieTechniczne.Company.csproj", "{D082F235-51B1-44E7-9158-3F360390C3EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzkolenieTechniczne.Company.CrossCutting", "SzkolenieTechniczne.Company.CrossCutting\SzkolenieTechniczne.Company.CrossCutting.csproj", "{1EE3FBEF-5E10-401C-9B6F-1F4A0C682834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzkolenieTechniczne.Company.Storage", "SzkolenieTechniczne.Company.Storage\SzkolenieTechniczne.Company.Storage.csproj", "{29F39BD0-ECCE-4551-8F89-6F7502CDBFA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +53,18 @@ Global
 		{381B9674-58AF-4F61-84DB-16DD1CF6963F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{381B9674-58AF-4F61-84DB-16DD1CF6963F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{381B9674-58AF-4F61-84DB-16DD1CF6963F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D082F235-51B1-44E7-9158-3F360390C3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D082F235-51B1-44E7-9158-3F360390C3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D082F235-51B1-44E7-9158-3F360390C3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D082F235-51B1-44E7-9158-3F360390C3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE3FBEF-5E10-401C-9B6F-1F4A0C682834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE3FBEF-5E10-401C-9B6F-1F4A0C682834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE3FBEF-5E10-401C-9B6F-1F4A0C682834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE3FBEF-5E10-401C-9B6F-1F4A0C682834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F39BD0-ECCE-4551-8F89-6F7502CDBFA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F39BD0-ECCE-4551-8F89-6F7502CDBFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F39BD0-ECCE-4551-8F89-6F7502CDBFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F39BD0-ECCE-4551-8F89-6F7502CDBFA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +75,9 @@ Global
 		{0BD29556-4CF4-4374-BF8E-0C14FF263AA7} = {F725BC38-C0C8-4ADE-8918-3F78E69F1EE9}
 		{BCF5A8B6-798D-4F70-847F-C06079341941} = {D5C8236B-559B-4095-A3B3-1018228386EB}
 		{381B9674-58AF-4F61-84DB-16DD1CF6963F} = {D5C8236B-559B-4095-A3B3-1018228386EB}
+		{D082F235-51B1-44E7-9158-3F360390C3EB} = {D75C5502-6058-48AA-B0A8-B28881BBF333}
+		{1EE3FBEF-5E10-401C-9B6F-1F4A0C682834} = {D75C5502-6058-48AA-B0A8-B28881BBF333}
+		{29F39BD0-ECCE-4551-8F89-6F7502CDBFA3} = {D75C5502-6058-48AA-B0A8-B28881BBF333}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {607C2A4B-201E-4953-894C-1FE8FAB785CD}
